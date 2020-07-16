@@ -2,7 +2,6 @@ body {
   min-width: 320px;
   max-width: 750px;
   margin: 0 auto;
-  height: 1200px;
   background-color: #f2f4f7;
 }
 a {
@@ -85,6 +84,10 @@ a {
 .content .get_job_focus .swiper-container {
   height: 100%;
   width: 14.4rem;
+}
+.content .get_job_focus .swiper-button-next:after,
+.content .get_job_focus .swiper-button-prev:after {
+  font-size: 0.853333rem;
 }
 .content .get_job_focus .swiper-slide {
   text-align: center;
@@ -191,7 +194,7 @@ a {
   width: 1.04rem;
   height: 1.093333rem;
 }
-.footer .item img p {
+.footer .item p {
   font-size: 0.586667rem;
   color: #666666;
   margin-top: 0.266667rem;
